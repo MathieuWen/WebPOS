@@ -1,0 +1,161 @@
+/* 
+ *		銷售明細表
+ */
+ 
+#order_list{
+	width:620px;
+   height:379px;
+	background: -webkit-gradient(linear,center top,center bottom, from(#B2B2B2), to(#CECECE));
+	text-align:center;
+}
+
+#order_table{
+   width:100%;
+   cursor: default;
+}
+
+#order_table, #order_table td, .order_thead th{
+	border-collapse:collapse;
+}
+#order_table td:last-child, .order_thead th:last-child{
+   border-right:none;
+}
+
+div.order_tbody {
+	height:310px;	/*350*/
+	overflow-y:scroll;
+   overflow-x:hidden;
+} 
+table.order_thead {
+	width:100%;
+	cursor: default;
+}
+
+table.order_thead th{
+	border-right: 1px solid #949494;
+	height:2em;
+	line-height:1.8em;
+	font-size: 1.3em;
+	text-align: center; 
+	color:#ffffff; 
+	font-weight:bold;
+	background: -webkit-gradient(linear,center top,center bottom, from(#7D7D7D), to(#1B1B1B));
+	text-shadow: text-shadow:2px 1px 1px #333333;
+   vertical-align: middle;
+}
+
+table.order_thead th:last-child{
+	border-right: none;
+}
+
+#order_table td{
+	height:62px;
+	line-height:62px;
+	text-align:right;
+	color:#484848;
+	cursor:pointer;
+   border-left:1px solid #cccccc;
+}
+
+#order_table td:last-child{
+   border-right: none;
+}
+
+#order_table tr.onfocus td{
+	color:#eda539;
+	cursor:pointer;
+	/*background-image: -webkit-gradient(linear, left bottom, left top, from(#aaeafa), to(#eeeeee));	*/
+	font-weight:bold;	
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+
+#order_table .odd{
+	background-color:#cccccc;
+	background: -webkit-gradient(linear, left top, left bottom, from(#cccccc), to(#dddddd));
+}
+
+#order_table .even{
+	background-color:#eeeeee;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#ffffff));
+}
+
+#order_table td:nth-child(2), #order_table td:nth-child(7){text-align:left;}
+
+table.order_thead th:first-child{text-align:center;border-left: none;width:20px;}
+table.order_thead th:nth-child(2) {width:230px;padding-left:0.5em;}
+table.order_thead th:nth-child(3) {width:30px;}
+table.order_thead th:nth-child(4) {width:50px;}
+table.order_thead th:nth-child(5) {width:30px;}
+table.order_thead th:nth-child(6) {width:80px;}
+table.order_thead th:nth-child(7) {width:144px;}
+
+table.order_thead th:last-child {
+   width: 24px;
+   text-align:center !important;
+   vertical-align: bottom !important;
+   display:table-cell !important;
+   height:100% !important;
+}
+table.order_thead th:last-child span{
+   display:inline-block !important;
+   text-align:center !important;
+}
+
+#order_table td:first-child{text-align:center;border-left: none;width:20px;}
+#order_table td:nth-child(2){width:230px;padding-left:0.5em;}
+#order_table td:nth-child(3){width:30px;}
+#order_table td:nth-child(4) {width:50px;}
+#order_table td:nth-child(5){width:30px;}
+#order_table td:nth-child(6){width:80px;}
+
+#order_table td:nth-child(7){}
+
+
+table.addition {
+	/*-webkit-border-top-left-radius: 6px;
+	border-top-left-radius: 6px;*/
+	width:100%;	
+   height: 43px;
+	background-color:#a3a3a3;
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#737373), to(#a3a3a3));*/
+   background: -webkit-gradient(linear, left top, left bottom, from(#CECECE), to(#a3a3a3));
+	cursor:default;
+}
+
+table.addition td{
+	padding-left:1em;
+	text-align:left;
+}
+
+#order_list table.addition td:first-child{width:88px;}
+#order_list table.addition td:nth-child(2){width:87px;}
+#order_list table.addition td:nth-child(3){width:88px;}
+#order_list table.addition td:nth-child(4){width:87px;}
+#order_list table.addition td:nth-child(5){width:87px;}
+#order_list table.addition td:nth-child(6){width:87px;}
+#order_list table.addition td:nth-child(7){
+   background: -webkit-gradient(linear, left center, right center, from(#a3a3a3), to(#CECECE));
+}
+
+
+#order_list table.addition td:last-child{
+   padding:0;
+   margin:0;
+   width:23px !important;
+  text-align:center !important;
+}
+#order_list table.addition td:last-child span{
+   display:inline-block !important;
+  text-align:center !important;
+   padding:0;
+   margin:0;
+   width:21px !important;
+   display:inline-block !important;
+ 
+}
+
+table.addition td label{
+	font-size: 1.5em;
+	color:#535353;
+   text-shadow:2px 1px 1px #888888;
+}

@@ -1,0 +1,86 @@
+@charset "utf-8";
+div[aria-labelledby="ui-dialog-title-Client_Login"] {
+	-webkit-box-shadow: 0px 0px 5px #007eff;
+	box-shadow: 0px 0px 5px #007eff;	
+}
+#Client_Login input{
+	padding: 4px;
+	font-size: 14px;
+	text-shadow: 0px 1px 0px #fff;
+	outline: none;
+	background: -webkit-gradient(linear, left top, left bottom, from(#bcbcbe), to(#ffffff));
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #717171;
+	-webkit-box-shadow: 1px 1px 0px #efefef;
+	box-shadow:  1px 1px 0px #efefef;
+}
+#Client_Login input:focus {
+	-webkit-box-shadow: 0px 0px 5px #007eff;
+	box-shadow: 0px 0px 5px #007eff;
+}
+#Client_Login input:hover{
+	-webkit-box-shadow: 0px 0px 5px #FF5E14;
+}
+#Client_Login div.content{
+	border: 0px solid red;
+	width: 100%;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+#Client_Login p{
+	margin: 0 0 10px 0;
+}
+#Client_Login p:first-child{
+	height: 10px;
+	line-height: 10px;
+}
+#LoginPad_msg{
+	color: red;
+	font-size: 12pt;
+}
+
+button.LoginPad_btn {
+	-webkit-appearance:none;
+	-webkit-border-radius: 6px;
+	position: relative;
+	right: 48px;
+	width: 160px;
+	height: 30px;
+	padding: 0;
+}
+button.LoginPad_btn span{
+	font-weight: bold;
+	color:#706c6c;	
+	position: relative;
+	top: -6px;
+	margin-top: 0;
+	padding: 0;
+	font-size: 14pt;
+}
+button.LoginPad_btn span:active{
+	color:#fff;	
+}
+#Client_Login .Login_onFocus{
+	color: red;
+}
+
+#Client_Login label {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+
+#Client_Login label span{
+	font-size: 14pt;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px #e3e3e3;
+	color:#706c6c;	
+}
+
+#Client_Login label[for='account'] span{
+
+}
+
+#Client_Login label[for='pwd'] span{
+
+}
